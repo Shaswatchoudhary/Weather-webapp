@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Weather app</title>
+      <link rel="shortcut icon" href="img/bg.jpg" type="image/x-icon">
+      <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <body>
+    
+    
+      <div class="content-wrapper">
+
+    <video id="Clouds" class="bg-video" loop muted>
+      <source src="video/Clouds.mp4" type="video/mp4" />
+    </video>
+    <video id="rain" class="bg-video" loop muted>
+      <source src="video/rain.mp4" type="video/mp4" />
+    </video>
+    <video id="clear" class="bg-video" loop muted>
+      <source src="video/clear.mp4" type="video/mp4" />
+    </video>
+    <video id="snow" class="bg-video" loop muted>
+      <source src="video/snow.mp4" type="video/mp4" />
+    </video>
+    <video id="sunny" class="bg-video" loop muted>
+      <source src="video/sunny.mp4" type="video/mp4" />
+    </video>
+    <video id="thunderstorm" class="bg-video" loop muted>
+      <source src="video/thunderstorm.mp4" type="video/mp4" />
+    </video>
+    <video id="drizzle" class="bg-video" loop muted>
+      <source src="video/drizzle.mp4" type="video/mp4" />
+    </video>
+    <video id="mist" class="bg-video" loop muted>
+      <source src="video/mist.mp4" type="video/mp4" />
+    </video>
+    <div class="app-main" id="parent">
+      <div class="header">
+        <h4>Get Weather</h4>
+      </div>
+      <div class="searchInputBox">
+        <input
+          type="text"
+          name=""
+          id="input-box"
+          class="input-box"
+          placeholder="Enter City Name"
+        />
+      </div>
+    </body>
+    
+      
+      <div class="weather-body" id="weather-body">
+        <!-- weather-body will be append through JavaScript -->
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <!-- font awesome icon cdn  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- sweetalert cdn........ -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </body>
+</html>
